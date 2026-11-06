@@ -13,7 +13,7 @@ const link=(label,url,cls='button secondary')=>{if(!safeLink(url))return node('s
 const validItemUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname==='item.rakuten.co.jp'&&u.pathname.split('/').filter(Boolean).length>=2;}catch{return false;}};
 const validRoomUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname==='room.rakuten.co.jp';}catch{return false;}};
 const safeLink=s=>{try{const u=new URL(s);return u.protocol==='https:'&&['item.rakuten.co.jp','room.rakuten.co.jp','search.rakuten.co.jp'].includes(u.hostname)&&!u.username&&!u.password;}catch{return false;}};
-const ageDays=date=>{if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(date||''))return Infinity;const t=Date.parse(date+'T00:00:00+09:00');return Number.isFinite(t)?Math.floor((Date.now()-t)/86400000):Infinity;};
+const ageDays=date=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(date||''))return Infinity;const t=Date.parse(date+'T00:00:00+09:00');return Number.isFinite(t)?Math.floor((Date.now()-t)/86400000):Infinity;};
 const idOK=s=>typeof s==='string'&&/^[a-z0-9][a-z0-9_-]{2,79}$/.test(s);
 function validItem(i){return i&&idOK(i.id)&&typeof i.name==='string'&&i.name.length<=150&&validItemUrl(i.url)&&typeof i.caption==='string'&&i.caption.length>0&&i.caption.length<=500;}
 function validateFeed(f){return f&&f.schema_version===2&&validRoomUrl(f.room_url)&&Array.isArray(f.pending)&&Array.isArray(f.published)&&Array.isArray(f.price_reviews)&&f.pending.every(validItem)&&f.published.every(x=>x&&idOK(x.id)&&validItemUrl(x.url));}
