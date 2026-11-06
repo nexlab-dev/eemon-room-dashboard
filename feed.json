@@ -2,20 +2,67 @@
   "schema_version": 2,
   "updated_at": "2026-11-07",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [],
+  "pending": [
+    {
+      "id": "eco-gap-wagon-f250",
+      "name": "eco家具 国産リバーシブルすき間ワゴン F-250",
+      "url": "https://item.rakuten.co.jp/auc-ecokagu/10000487/",
+      "shop": "eco家具 楽天市場店",
+      "price_yen": 13900,
+      "price_note": "幅・奥行きによる価格差あり。13,900円～の掲載例。送料・保証・在庫は公開前に再確認",
+      "differentiator": "幅10～24cmを2cm刻みで選べ、棚は1cm単位で調整できる",
+      "caption": "冷蔵庫の横に、微妙なすき間ない？👀\n\nこのリバーシブルすき間ワゴン、ただ細いだけやないねん🙆\n\n✅ 幅10〜24cmを2cm刻みで選べる\n✅ 棚の高さは1cm刻みで調整\n✅ 前面は白・シルバー、オープン側も左右で選べる\n\n「あと数cm合えば…」に応えてくれるのがええところ😊\nキャスター付きで、調味料やストックも引き出して取りやすい！\n\n高さ約181cm。置きたい場所は幅・奥行きまで確認してな🔎\n\n#すき間収納 #キッチン収納 #収納アイデア #便利グッズ",
+      "observed_at": "2026-11-07",
+      "source_url": "https://item.rakuten.co.jp/auc-ecokagu/10000487/"
+    }
+  ],
   "published": [
-    {"id":"epson-ew-056a","name":"EPSON Colorio EW-056A","date":"2026-11-06","url":"https://item.rakuten.co.jp/epson/ew-056a/","room_post":"https://room.rakuten.co.jp/eemon_sagashi_papa/1700400007475108"},
-    {"id":"solow-pedal-twin-35l","name":"SOLOW ペダルオープンツイン 35L","date":"2026-11-07","url":"https://item.rakuten.co.jp/air-rhizome/toh-solow-35l/","room_post":null}
+    {
+      "id": "epson-ew-056a",
+      "name": "EPSON Colorio EW-056A",
+      "date": "2026-11-06",
+      "url": "https://item.rakuten.co.jp/epson/ew-056a/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400007475108"
+    },
+    {
+      "id": "solow-pedal-twin-35l",
+      "name": "SOLOW ペダルオープンツイン 35L",
+      "date": "2026-11-07",
+      "url": "https://item.rakuten.co.jp/air-rhizome/toh-solow-35l/",
+      "room_post": null
+    }
   ],
   "price_reviews": [
     {
-      "id":"ew056a-20261107","name":"EPSON EW-056A｜販売店の見直し","model":"EW-056A","observed_at":"2026-11-07","source_url":"https://search.rakuten.co.jp/search/mall/EW-056A/",
-      "offers":[
-        {"shop":"イートレンド楽天市場店","price_yen":8467,"shipping_yen":0,"link":"https://item.rakuten.co.jp/etre/1267271/","condition":"新品として掲載。初期インクの同梱・店側の保証条件は要確認"},
-        {"shop":"OCNオンラインショップ 楽天市場店","price_yen":8479,"shipping_yen":0,"link":"https://search.rakuten.co.jp/search/mall/EW-056A/","condition":"新品・付属品と納期を購入前に要確認"},
-        {"shop":"エプソン公式店（投稿時）","price_yen":9900,"shipping_yen":0,"link":"https://item.rakuten.co.jp/epson/ew-056a/","condition":"投稿時点の価格。最新価格は要確認"}
+      "id": "ew056a-20261107",
+      "name": "EPSON EW-056A｜販売店の見直し",
+      "model": "EW-056A",
+      "observed_at": "2026-11-07",
+      "source_url": "https://search.rakuten.co.jp/search/mall/EW-056A/",
+      "offers": [
+        {
+          "shop": "イートレンド楽天市場店",
+          "price_yen": 8467,
+          "shipping_yen": 0,
+          "link": "https://item.rakuten.co.jp/etre/1267271/",
+          "condition": "新品として掲載。初期インクの同梱・店側の保証条件は要確認"
+        },
+        {
+          "shop": "OCNオンラインショップ 楽天市場店",
+          "price_yen": 8479,
+          "shipping_yen": 0,
+          "link": "https://search.rakuten.co.jp/search/mall/EW-056A/",
+          "condition": "新品・付属品と納期を購入前に要確認"
+        },
+        {
+          "shop": "エプソン公式店（投稿時）",
+          "price_yen": 9900,
+          "shipping_yen": 0,
+          "link": "https://item.rakuten.co.jp/epson/ew-056a/",
+          "condition": "投稿時点の価格。最新価格は要確認"
+        }
       ],
-      "note":"同じ型番・新品・同梱品・保証が同じなら送料込みの安い店を優先。写真枚数だけでは判断しない。既存のROOM投稿は自動で差し替えない。"
+      "note": "同じ型番・新品・同梱品・保証が同じなら送料込みの安い店を優先。写真枚数だけでは判断しない。既存のROOM投稿は自動で差し替えない。"
     }
   ]
 }
