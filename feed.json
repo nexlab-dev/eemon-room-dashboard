@@ -2,7 +2,19 @@
   "schema_version": 2,
   "updated_at": "2026-11-07",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [],
+  "pending": [
+    {
+      "id": "yamazaki-tower-bottle-holder-4867",
+      "name": "山崎実業 tower マグネットバスルームディスペンサーホルダー 4867",
+      "url": "https://item.rakuten.co.jp/bathroom/yj-4867/",
+      "caption": "お風呂のシャンプーボトル、底のヌメリが気にならへん？🛁\n\ntowerのマグネット式ホルダーなら、棚を置かずにボトルを壁に浮かせて収納できるで😊\n\n✅ ボトルを付けたままポンプを押せる\n✅ 耐荷重約1kg、直径9cm・750ml以内が目安\n✅ 補助リング付きで口径2.4〜3.2cmに対応\n\n棚の掃除をラクにしたい人にええかも！磁石が付く平らな壁か、ボトルの口径が合うか確認してな🔎\n\n#tower #山崎実業 #浴室収納 #便利グッズ",
+      "observed_at": "2026-11-07",
+      "shop": "BATH ROOM 楽天市場店",
+      "price_note": "販売価格は未確定。商品ページには送料無料の表記あり。配送地域・セット数・最新価格・在庫は投稿前に確認。",
+      "differentiator": "一般的な棚置きと異なりマグネットでボトルを壁に浮かせ、設置したままポンプ操作可能。耐荷重約1kg、口径2.4〜3.2cm。",
+      "source_url": "https://item.rakuten.co.jp/bathroom/yj-4867/"
+    }
+  ],
   "published": [
     {
       "id": "epson-ew-056a",
