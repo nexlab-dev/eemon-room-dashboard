@@ -1,2 +1,15 @@
-# eemon-room-dashboard
-EEMON public, client-only Rakuten ROOM draft approval page (no credentials)
+# EEMON｜ええもん管理室（iPhone用）
+
+楽天ROOMの紹介文の**事前承認とコピーを支援**する無償・静的なWebサイトです。
+
+- 候補の紹介文をコピーし、楽天市場の公式商品ページへ移動できます。
+- **実際のROOM投稿は自動では行いません。** 商品ページからROOMの正規投稿画面を開き、本人が最後の「投稿／完了」を押します。
+- 承認と自己報告の記録はブラウザ内にのみ保存。運営者や他ユーザーのブラウザへ同期しません。
+- 公開するJSONは一般公開可能な商品情報・掲載価格例のみ。ログイン情報や売上データは保存しません。
+- 価格・送料・付属品・保証・納期などは購入前に要再確認。
+
+## 技術
+
+追加課金・外部APIキー・ブラウザ自動操作・GitHub Actionsなし。GitHub Pagesの公開ブランチから配信します。候補更新は `feed.json` の編集で実施。公開サイトとフィードは第三者も閲覧できます。
+
+[楽天ROOMの公式利用規約](https://room.rakuten.co.jp/info/agreement.html)
