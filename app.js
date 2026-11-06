@@ -29,7 +29,7 @@ function renderPending(){const items=allCandidates();$('pending-count').textCont
   for(const item of items){const card=node('article',null,'card'),approved=Boolean(device.approved[item.id]),reported=Boolean(device.reported[item.id]);
     card.appendChild(node('span',reported?'公開確認待ち（自己報告）':approved?'承認済み・ROOM未確認':'承認待ち','tag'+(reported?' warn':approved?' blue':'')));
     card.appendChild(node('h3',item.name));if(item.shop)card.appendChild(node('p','紹介する店舗：'+item.shop,'muted small'));
-    if(item.price_yen!==undefined)card.appendChild(node('p','参考価格：'+Number(item.price_yen).toLocaleString('ja-JP')+'円（投稿前に要確認）','muted small'));
+    if(item.price_yen!==undefined)card.appendChild(node('p','参考価格：'+Number(item.price_yen).toLocaleString('ja-JP')+'円（投稿前に要確認）','muted small'));if(item.price_note)card.appendChild(node('p','価格条件：'+item.price_note,'muted small'));
     if(item.differentiator)card.appendChild(node('p','🙆 違い：'+item.differentiator,'small'));
     const cap=node('div',item.caption,'description');card.appendChild(cap);
     const b=node('div',null,'buttons');b.appendChild(btn(approved?'① 原稿をもう一度コピー':'① 承認して原稿をコピー',async()=>{const ok=await copy(item.caption);if(!ok){toast('コピーできへんかった。紹介文を長押ししてコピーしてな。');return;}device.approved[item.id]=new Date().toISOString();save();render();toast('コピー済み！②楽天市場に進んでな。');},'primary'));
