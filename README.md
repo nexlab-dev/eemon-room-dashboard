@@ -24,3 +24,13 @@
 - Private 正本：`nexlab-dev/Project-ORCHESTRA/automation/eemon/queue.json`・`published.json`・`price_watch.json`。安全な出力プログラム `export_feed.py` はGitHub書き換えやROOM投稿を行わない。公開`feed.json`の更新はChatGPT/WorkからGitHub connectorで行う。
 - GitHub Pages URL: https://nexlab-dev.github.io/eemon-room-dashboard/
 - 静的サイト自身はプッシュ通知、楽天ログイン、公開投稿、端末状態のGitHub自動同期を行わない。投稿依頼は既存のChatGPT PMO定期タスクが担当するが、実通知は設定・実行結果に依存。
+
+
+## 毎時候補蓄積（2026-11-07）
+
+- NEXLAB既存の毎時PMOが**1時間ごとに最大1件**、公開の商品仕様・楽天市場の販売店・価格/送料・他商品との差別化を確認して候補を作る。良い商品が見つからないときは0件。
+- Private GitHubの承認候補台帳が正本。この公開リポジトリの `feed.json` は、公開してよい商品情報だけを写す。最大**12件**まで承認待ちを貯め、14日より古い根拠の候補は再調査まで非表示。
+- 既存の掲載済みと同一型番・同一URLを避け、本人による楽天ROOM投稿後は公開画面を確認して掲載履歴へ移動。
+- 毎時間の通知連投はせず、1日1回の承認残件案内を基本とする。
+- 管理画面で承認・原稿コピーをしても楽天ROOMの投稿は行われない。ROOMの公式画面で最後の「投稿／完了」を本人が行う。
+- **実行契機はChatGPTの既存PMO自動タスク**。スクリプトとGitHub Pagesだけで自律的に商品調査するわけではない。タスク側で商品調査・GitHub更新が失敗した時間は候補が増えない。
