@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#091724">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>EEMON｜ええもん管理室</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="manifest" href="./manifest.webmanifest">
+</head>
+<body>
+<main class="wrap">
+  <header class="header">
+    <div><div class="eyebrow">PROJECT EEMON / ROOM</div><h1>ええもん管理室 <span>🛍️</span></h1><p class="sub">AIが準備。iPhoneで承認。最後は楽天公式から投稿。</p></div>
+    <div class="live" id="connection">読み込み中</div>
+  </header>
+  <section class="counts" aria-label="件数">
+    <div><small>承認待ち</small><strong id="pending-count">–</strong></div>
+    <div><small>公開確認待ち</small><strong id="reported-count">–</strong></div>
+    <div><small>公開済み</small><strong id="published-count">–</strong></div>
+  </section>
+  <p class="notice">ここでの<strong>「承認」は下書きの確認とコピー</strong>やで。楽天ROOMへの投稿は、開いた公式画面で本人が「投稿／完了」を押してな。</p>
+  <div class="section-heading"><h2>📥 AIが用意した投稿候補</h2><span id="feed-date" class="muted"></span></div>
+  <div id="pending"></div>
+  <div class="section-heading"><h2>🛒 安い店舗を比較</h2></div>
+  <div id="reviews"></div>
+  <div class="section-heading"><h2>✅ 公開履歴</h2></div>
+  <div id="published" class="panel"></div>
+  <details class="panel"><summary>＋ 商品候補を手動で追加</summary>
+    <form id="manual-form" class="form" autocomplete="off">
+      <label>商品名<input name="name" maxlength="90" required placeholder="例：便利な収納用品"></label>
+      <label>楽天市場の商品URL<input name="url" type="url" required placeholder="https://item.rakuten.co.jp/shop/item/"></label>
+      <label>紹介文（500文字以内）<textarea name="caption" maxlength="500" required placeholder="ここが他と違ってええ！"></textarea></label>
+      <button class="secondary" type="submit">候補として端末に保存</button>
+    </form>
+  </details>
+  <details class="panel"><summary>⚙️ データ管理・使い方</summary>
+    <p>GitHub Pagesの無料ホスティングに、公開しても問題ない商品情報だけを置く。承認状態はこのiPhone内に保存し、GitHubや楽天へ送信しない。Safariの履歴削除で消える場合があるで。</p>
+    <p><b>使い方：</b>①承認して文面コピー → ②楽天市場で「ROOMに投稿」→ ③楽天公式の「完了」を押す → ④この画面で報告文をコピーしてChatGPTに貼り付け。</p>
+    <div class="btn-row"><button id="export" class="secondary" type="button">履歴をバックアップ</button><button id="clear" class="tertiary" type="button">端末内記録を消去</button></div>
+    <p class="muted small">アプリ風に使うならSafariの共有メニューから「ホーム画面に追加」。このページに楽天IDやパスワードは入力しないでな。</p>
+  </details>
+  <footer>v2.0 · EEMON / 商品の価格・在庫・送料・保証は投稿前に再確認。機械的なROOM投稿や自動フォローは行わない。</footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script src="./app.js" defer></script>
+</body></html>
