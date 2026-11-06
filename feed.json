@@ -2,20 +2,7 @@
   "schema_version": 2,
   "updated_at": "2026-11-07",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [
-    {
-      "id": "tower-drain-rack-4338",
-      "name": "山崎実業 tower 伸縮洗濯機排水口上ラック 4338",
-      "url": "https://item.rakuten.co.jp/bathroom/yj-4338/",
-      "caption": "洗濯機の横、排水ホースが丸見えの「使えないスペース」ない？🧺\n\ntowerの伸縮排水口上ラックは、ホースを隠しながら収納台に変えられるのがええ🙆\n\n✅ 幅37〜64cmに調整できる\n✅ 耐荷重約5kgで洗剤や小物を置ける\n✅ 奥行15cmのスリムサイズ\n\n見た目スッキリ＋置き場所が増える、一石二鳥！😊\nホース高さ11cm以下など、置き場所の寸法は購入前に確認してな🔎\n\n#山崎実業 #tower #ランドリー収納 #すき間収納",
-      "observed_at": "2026-11-07",
-      "source_url": "https://item.rakuten.co.jp/bathroom/yj-4338/",
-      "shop": "BATH ROOM 楽天市場店",
-      "price_note": "2026-11-07検索掲載例：3,960円・送料無料（配送地域/ポイント/価格は投稿前に再確認）。メーカー直販も税込3,960円だが送料条件が異なる場合あり。",
-      "differentiator": "排水ホースを隠しながら収納台に。幅37～64cmに伸縮、耐荷重約5kg。",
-      "price_yen": 3960
-    }
-  ],
+  "pending": [],
   "published": [
     {
       "id": "epson-ew-056a",
@@ -37,6 +24,13 @@
       "date": "2026-11-07",
       "url": "https://item.rakuten.co.jp/auc-ecokagu/10000487/",
       "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400036507103"
+    },
+    {
+      "id": "tower-drain-rack-4338",
+      "name": "山崎実業 tower 伸縮洗濯機排水口上ラック 4338",
+      "date": "2026-11-07",
+      "url": "https://item.rakuten.co.jp/bathroom/yj-4338/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400039214338"
     }
   ],
   "price_reviews": [
