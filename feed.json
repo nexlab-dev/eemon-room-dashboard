@@ -2,20 +2,7 @@
   "schema_version": 2,
   "updated_at": "2026-11-07",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [
-    {
-      "id": "eco-gap-wagon-f250",
-      "name": "eco家具 国産リバーシブルすき間ワゴン F-250",
-      "url": "https://item.rakuten.co.jp/auc-ecokagu/10000487/",
-      "caption": "冷蔵庫の横に、微妙なすき間ない？👀\n\nこのリバーシブルすき間ワゴン、ただ細いだけやないねん🙆\n\n✅ 幅10〜24cmを2cm刻みで選べる\n✅ 棚の高さは1cm刻みで調整\n✅ 前面は白・シルバー、オープン側も左右で選べる\n\n「あと数cm合えば…」に応えてくれるのがええところ😊\nキャスター付きで、調味料やストックも引き出して取りやすい！\n\n高さ約181cm。置きたい場所は幅・奥行きまで確認してな🔎\n\n#すき間収納 #キッチン収納 #収納アイデア #便利グッズ",
-      "observed_at": "2026-11-07",
-      "shop": "eco家具 楽天市場店",
-      "price_note": "楽天市場の確認価格は13,900〜22,900円（選択した幅・奥行きにより異なる）。送料無料表記。投稿時に再確認",
-      "differentiator": "幅10～24cmを2cm刻みで選べ、棚は1cm単位で調整できる",
-      "price_yen": 13900,
-      "source_url": "https://item.rakuten.co.jp/auc-ecokagu/10000487/"
-    }
-  ],
+  "pending": [],
   "published": [
     {
       "id": "epson-ew-056a",
@@ -30,6 +17,13 @@
       "date": "2026-11-07",
       "url": "https://item.rakuten.co.jp/air-rhizome/toh-solow-35l/",
       "room_post": null
+    },
+    {
+      "id": "eco-gap-wagon-f250",
+      "name": "eco家具 国産リバーシブルすき間ワゴン F-250",
+      "date": "2026-11-07",
+      "url": "https://item.rakuten.co.jp/auc-ecokagu/10000487/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400036507103"
     }
   ],
   "price_reviews": [
