@@ -28,7 +28,7 @@ function renderPending(){const items=allCandidates();$('pending-count').textCont
   const holder=$('pending');holder.replaceChildren();if(!items.length)holder.appendChild(node('div','いま承認待ちの商品はないで。次のAI選定を待てばOK。','empty'));
   for(const item of items){const card=node('article',null,'card'),approved=Boolean(device.approved[item.id]),reported=Boolean(device.reported[item.id]);
     card.appendChild(node('span',reported?'公開確認待ち（自己報告）':approved?'承認済み・ROOM未確認':'承認待ち','tag'+(reported?' warn':approved?' blue':'')));
-    card.appendChild(node('h3',item.name));if(item.shop)card.appendChild(node('p','紹介する店舗：'+item.shop,'muted small'));
+    card.appendChild(node('h3',item.name));if(item.observed_at)card.appendChild(node('p','商品確認日：'+item.observed_at+'（購入条件は投稿前に再確認）','muted small'));if(item.shop)card.appendChild(node('p','紹介する店舗：'+item.shop,'muted small'));
     if(item.price_yen!==undefined)card.appendChild(node('p','参考価格：'+Number(item.price_yen).toLocaleString('ja-JP')+'円（投稿前に要確認）','muted small'));if(item.price_note)card.appendChild(node('p','価格条件：'+item.price_note,'muted small'));
     if(item.differentiator)card.appendChild(node('p','🙆 違い：'+item.differentiator,'small'));
     const cap=node('div',item.caption,'description');card.appendChild(cap);
