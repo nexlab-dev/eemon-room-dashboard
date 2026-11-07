@@ -2,7 +2,19 @@
   "schema_version": 2,
   "updated_at": "2026-11-07",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [],
+  "pending": [
+    {
+      "id": "tower-folding-laundry-shelf-5096",
+      "name": "山崎実業 tower 洗濯機横マグネット折り畳み棚 5096（ホワイト）",
+      "url": "https://item.rakuten.co.jp/kurasso/5096/",
+      "caption": "脱衣所が狭くて、着替えを置く場所がない…ってことない？🧺\n\n山崎実業towerの折り畳み棚は、床にラックを増やさず洗濯機にマグネットで取り付けられるのがええね😊\n\n✅ 使う時は奥行27cmの一時置き棚\n✅ 使わない時は奥行約4cmに折り畳める\n✅ 耐荷重約1.5kg\n\nお風呂上がりのタオルやパジャマの置き場に🙆 磁石が付く洗濯機か、取り付け場所の寸法を確認してな🔎\n\n#tower #山崎実業 #洗濯機収納 #便利グッズ",
+      "observed_at": "2026-11-07",
+      "shop": "生活雑貨ショップ kurasuno",
+      "price_note": "価格・送料・在庫は最新の販売ページで要確認。競合店との同条件価格優位は未確認。",
+      "differentiator": "床置き収納と違い洗濯機へマグネット固定、使用時奥行27cm・収納時約4cm。耐荷重1.5kg。",
+      "source_url": "https://item.rakuten.co.jp/kurasso/5096/"
+    }
+  ],
   "published": [
     {
       "id": "epson-ew-056a",
