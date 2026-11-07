@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-07",
+  "notice": "公式ROOMプロフィールから本人がフォロー。管理室内の記録はiPhoneだけに保存し、楽天側へ操作を送信しません。",
+  "candidates": [
+    {
+      "id": "room_add1f4a1e7",
+      "name": "はな𓍯暮らしが快適になる便利グッズ",
+      "url": "https://room.rakuten.co.jp/room_add1f4a1e7/items",
+      "rank": "S",
+      "verified_at": "2026-11-07",
+      "category": "暮らし・日用品",
+      "reason": "暮らしを快適にする便利グッズ。家事・収納・掃除などEEMONと商品の対象が近い。",
+      "priority": 1
+    },
+    {
+      "id": "room_21003cd01f",
+      "name": "つく！おしゃれな商品や便利な商品をお届け",
+      "url": "https://room.rakuten.co.jp/room_21003cd01f/items",
+      "rank": "B",
+      "verified_at": "2026-11-07",
+      "category": "キッチン・収納・インテリア",
+      "reason": "収納・キッチン用品を中心とした公開ROOM。紹介文の特徴を既存EEMON学習でも観測済み。",
+      "priority": 2
+    }
+  ]
+}
