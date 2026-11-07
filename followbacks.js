@@ -20,6 +20,13 @@ function render(){
  $('total').textContent=String(rows.length);
  $('remaining').textContent=String(pending.length);
  $('done').textContent=String(rows.filter(x=>stamp(x.id)==='done').length);
+ const reviewed=rows.filter(x=>!!stamp(x.id)).length;
+ const batchTotal=Math.max(1,Math.ceil(rows.length/20));
+ const batchIndex=Math.min(batchTotal,Math.floor(reviewed/20)+1);
+ const batchStart=(batchIndex-1)*20;
+ const batchEnd=Math.min(rows.length,batchStart+20);
+ $('batch-number').textContent='端末内の確認 '+batchIndex+' / '+batchTotal+' 組';
+ $('batch-progress').textContent='今回の20人枠：'+Math.max(0,reviewed-batchStart)+' / '+Math.max(0,batchEnd-batchStart)+' 件確認済み（Macの自動フォロー実績とは別）';
  $('source-info').textContent='公開リスト確認日：'+(metadata.checked_at||'未取得')+'｜フォロワー '+(metadata.follower_count??'不明')+' ／ フォロー中 '+(metadata.following_count??'不明')+'。'+(metadata.complete?'両一覧を照合済み。':'一覧は一部のみ確認。一覧は一部だけ。未フォロバ確定ではないで。');
  const next=pending[0];
  $('index').textContent=next?'あと '+pending.length+' 人':'';
