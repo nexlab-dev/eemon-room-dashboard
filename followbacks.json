@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-08",
+  "follower_count": 156,
+  "following_count": 58,
+  "followers_collected": 20,
+  "following_collected": 40,
+  "complete": false,
+  "notice": "部分取得。20件は公開フォロワー一覧で確認された相手だが、すでにフォロー中かどうかは未確定。ROOM公式の相手ページで「フォロー」なら本人がタップ、「フォロー中」ならタップせず処理済みと記録。",
+  "candidates": [
+    {
+      "id": "m.j.k",
+      "name": "mik/ヨガ・美容・ファッション",
+      "url": "https://room.rakuten.co.jp/m.j.k/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_2e03466c98",
+      "name": "はねぽんぽん🌿暮らしに余白を🌿",
+      "url": "https://room.rakuten.co.jp/room_2e03466c98/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_c97619c2ad",
+      "name": "Mikoto",
+      "url": "https://room.rakuten.co.jp/room_c97619c2ad/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_b497b69770",
+      "name": "遊未子",
+      "url": "https://room.rakuten.co.jp/room_b497b69770/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "mamakago",
+      "name": "ねむこ🎀楽したいママの購入品ほぼオリ写",
+      "url": "https://room.rakuten.co.jp/mamakago/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_85e55c4405",
+      "name": "ずんだこ 3歳0歳ワーママ",
+      "url": "https://room.rakuten.co.jp/room_85e55c4405/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_8fa5cc3f84",
+      "name": "パンチ🐕",
+      "url": "https://room.rakuten.co.jp/room_8fa5cc3f84/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_1465be61e9",
+      "name": "むんめる🐈‍⬛猫と快適ライフ🐈朝コレ",
+      "url": "https://room.rakuten.co.jp/room_1465be61e9/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "te_to_te",
+      "name": "てとて🌿慎重に選ぶ派🧺💚",
+      "url": "https://room.rakuten.co.jp/te_to_te/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_b267661ebb",
+      "name": "ジャイパン🐼の整える暮らしROOM",
+      "url": "https://room.rakuten.co.jp/room_b267661ebb/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_5d80b906e6",
+      "name": "あやくも⛅便利なもの、おしゃれなもの",
+      "url": "https://room.rakuten.co.jp/room_5d80b906e6/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_90785f4e77",
+      "name": "もにしー☀️暮らしをお得に快適に🧡",
+      "url": "https://room.rakuten.co.jp/room_90785f4e77/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_7635bfb42f",
+      "name": "ごんた🐈朝コレ🐈‍⬛",
+      "url": "https://room.rakuten.co.jp/room_7635bfb42f/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_183ea67e09",
+      "name": "ウィンク🌷ラクして、可愛い毎日",
+      "url": "https://room.rakuten.co.jp/room_183ea67e09/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "raku_kurashi",
+      "name": "もっちゃん☕主婦の癒しとご褒美ROOM",
+      "url": "https://room.rakuten.co.jp/raku_kurashi/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_14a859c964",
+      "name": "にわとりこ",
+      "url": "https://room.rakuten.co.jp/room_14a859c964/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_a87d17406f",
+      "name": "ブラック社畜のベストバイ！",
+      "url": "https://room.rakuten.co.jp/room_a87d17406f/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_964cc74db6",
+      "name": "sherry",
+      "url": "https://room.rakuten.co.jp/room_964cc74db6/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "room_111e89a644",
+      "name": "ゆきとら🐯｜暮らしをラクにしたいパパ",
+      "url": "https://room.rakuten.co.jp/room_111e89a644/items",
+      "status": "needs_official_follow_state_confirmation"
+    },
+    {
+      "id": "coolitem",
+      "name": "Ayano♪30代OLファッション",
+      "url": "https://room.rakuten.co.jp/coolitem/items",
+      "status": "needs_official_follow_state_confirmation"
+    }
+  ]
+}
