@@ -2,19 +2,7 @@
   "schema_version": 2,
   "updated_at": "2026-11-07",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [
-    {
-      "id": "kokuyo-hakoake-hasa-420ls",
-      "name": "コクヨ 2Way携帯ハサミ〈ハコアケ〉ハサ-420LS サンドベージュ",
-      "url": "https://item.rakuten.co.jp/mita-club/kokuyo-420ls/",
-      "caption": "通販の段ボール、開けるたびにカッター探してへん？📦✂️\n\nコクヨの〈ハコアケ〉は、開梱カッターとハサミが1本になった便利文具！\n\n✅ 約3mmだけ刃を出してテープの開封に\n✅ ハサミモードでタグやひもをカット\n✅ キャップなしのスライド式で切り替え簡単\n\n箱を開けたあとも使えるのがええね😊\n※段ボールの厚紙そのものは切らんといてな。\n\n#コクヨ #文房具 #開梱グッズ #便利グッズ",
-      "observed_at": "2026-11-07",
-      "source_url": "https://item.rakuten.co.jp/mita-club/kokuyo-420ls/",
-      "shop": "三田三昭堂 楽天市場店",
-      "price_note": "掲載ページにゆうパケット送料込みの表記あり。商品価格・在庫・他店の総額と配送条件は投稿前に再確認。",
-      "differentiator": "約3mmの開梱用カッターと35mm刃のハサミを、キャップ不要のスライド操作で切り替え。段ボールのテープ開封とタグ切りに使い分ける。"
-    }
-  ],
+  "pending": [],
   "published": [
     {
       "id": "epson-ew-056a",
@@ -71,6 +59,13 @@
       "url": "https://item.rakuten.co.jp/bathroom/yj-03273/",
       "date": "2026-11-07",
       "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400080733316"
+    },
+    {
+      "id": "kokuyo-hakoake-hasa-420ls",
+      "name": "コクヨ 2Way携帯ハサミ〈ハコアケ〉ハサ-420LS サンドベージュ",
+      "date": "2026-11-07",
+      "url": "https://item.rakuten.co.jp/mita-club/kokuyo-420ls/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400113365282"
     }
   ],
   "price_reviews": [
