@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#091724">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>EEMON｜ランカー発掘室</title>
+<link rel="stylesheet" href="./style.css"></head>
+<body><main class="wrap">
+<header class="header"><div><div class="eyebrow">PROJECT EEMON / RANKERS</div>
+<h1>🏅 ランカー発掘室</h1><p class="sub">AIが公開ROOMから発掘・ランク確認。iPhoneで気になる人をフォロー。</p></div>
+<div class="live" id="ranker-connection">読み込み中</div></header>
+<p class="notice">ここでは<b>候補の確認だけ</b>を自動化しているで。フォローは開いた楽天ROOMの公式ページで本人が押してな。自動フォローやいいねは実行しない。</p>
+<section class="counts" aria-label="ランカー確認状況">
+<div><small>確認候補</small><strong id="ranker-total">–</strong></div>
+<div><small>未確認</small><strong id="ranker-unreviewed">–</strong></div>
+<div><small>フォロー申告</small><strong id="ranker-followed">–</strong></div>
+</section>
+<div class="section-heading"><h2>🔎 S・A・Bランカー候補</h2><span class="muted" id="ranker-date"></span></div>
+<div id="ranker-candidates"></div>
+<p class="muted small">「フォローした」はこの端末だけのメモで、楽天側のフォロー状態を確認する機能ではありません。別の端末へは同期しないでな。ランクは確認日以降に変更される場合があります。</p>
+<div class="buttons"><a class="button secondary" href="./index.html">← 商品承認の管理室へ戻る</a></div>
+<footer>EEMON / 公開ROOMの少数閲覧だけを利用。楽天アカウント情報は保存しません。</footer>
+</main><script defer src="./rankers.js"></script></body></html>
