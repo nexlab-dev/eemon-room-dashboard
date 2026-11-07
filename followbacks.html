@@ -6,17 +6,22 @@
 <title>EEMON｜フォローバック処理室</title>
 <link rel="stylesheet" href="./style.css"></head>
 <body><main class="wrap">
-<header class="header"><div><div class="eyebrow">PROJECT EEMON / FOLLOW BACK</div><h1>🤝 フォロバ処理室</h1><p class="sub">フォロワーとフォロー中の公開リストを照合。必要な相手だけ、順番に処理。</p></div><div class="live" id="connection">読み込み中</div></header>
+<header class="header"><div><div class="eyebrow">PROJECT EEMON / FOLLOW BACK</div><h1>🤝 フォロバ処理室</h1><p class="sub">Mac / iPhone 対応。最大20人ずつ確認し、10分経過後に次の20人を準備。</p></div><div class="live" id="connection">読み込み中</div></header>
 <p class="notice"><strong>楽天側を自動フォローする機能ではありません。</strong> 候補抽出と順番管理だけが自動。楽天公式画面で実際に「フォロー」を押したあと、この画面で記録してな。</p>
 <section class="counts" aria-label="フォローバック処理数"><div><small>未処理候補</small><strong id="remaining">–</strong></div><div><small>処理済みメモ</small><strong id="done">–</strong></div><div><small>候補合計</small><strong id="total">–</strong></div></section>
 <p class="sub" id="source-info"></p>
+<section class="panel" aria-label="20人単位の処理進捗">
+<div class="section-heading"><h2>📦 現在の20人バッチ</h2><span id="batch-number" class="muted">準備中</span></div>
+<p id="batch-progress">データを読み込み中…</p>
+<p class="muted small" id="batch-cooldown">1組が終わると10分間の待機後、次の組へ進みます。待機中も公式ROOMでのフォロー操作は自動実行されません。</p>
+</section>
 <section class="panel" aria-label="次に確認するフォロワー">
-  <div class="section-heading"><h2>次のフォロワー</h2><span class="muted" id="index"></span></div>
+  <div class="section-heading"><h2>今回の次のフォロワー</h2><span class="muted" id="index"></span></div>
   <h3 id="next-name">読み込み中…</h3><p class="muted small" id="next-note"></p>
   <div class="buttons"><a id="open-profile" class="button green" target="_blank" rel="noopener noreferrer" href="https://room.rakuten.co.jp/eemon_sagashi_papa/items">① 楽天ROOMの相手のプロフィールを開く</a>
-  <button id="mark-done" class="primary" type="button">② フォローしたら記録して次へ</button>
+  <button id="mark-done" class="primary" type="button">② フォロー状態を確認して次へ</button>
   <button id="mark-skip" class="secondary" type="button">今回は見送って次へ</button></div>
-  <p class="muted small">メモはこのiPhone内にだけ保存。楽天のフォロー状態と自動同期せえへんから、実際に押してから記録してな。</p>
+  <p class="muted small">メモはこのブラウザ内に保存。公式ROOMで「フォロー」なら本人が押し、「フォロー中」なら押さずに「確認して次へ」を選んでな。楽天の状態とは同期しません。</p>
 </section>
 <details class="panel"><summary>候補一覧・処理履歴を見る</summary><div id="list"></div></details>
 <div class="buttons"><a class="button secondary" href="https://room.rakuten.co.jp/eemon_sagashi_papa/items" target="_blank" rel="noopener noreferrer">公式ROOMのフォロワー一覧を開く</a>
