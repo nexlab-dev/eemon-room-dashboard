@@ -2,7 +2,19 @@
   "schema_version": 2,
   "updated_at": "2026-11-08",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [],
+  "pending": [
+    {
+      "id": "amon-emergency-led-6904",
+      "name": "エーモン 非常信号灯 6904（赤色LED・車検対応）",
+      "url": "https://item.rakuten.co.jp/hc7/4905034069046/",
+      "caption": "車の発炎筒、交換時期を忘れがちやない？🚗\n\nエーモンの非常信号灯6904は、車検対応の赤色LEDタイプ。火を使わず、電池交換して繰り返し使える便利な備え！\n\n✅ 夜間約200m先から視認できる赤色点滅\n✅ マグネットで車体に設置（側面は不可）\n✅ 単4アルカリ乾電池2本で約8時間点滅\n\nもしもの備え、車の中も確認しよ😊\n※設置方法と電池の状態は説明書を確認。\n\n#カー用品 #防災グッズ #車検 #エーモン",
+      "observed_at": "2026-11-08",
+      "shop": "ホームセンターセブン",
+      "price_note": "価格・送料・在庫は配送先や時期で異なるため、ROOM投稿直前に販売ページの総額を確認。",
+      "differentiator": "車検対応。赤色LED9灯の点滅、約200mからの視認性、マグネット付き。車体側面には装着不可。",
+      "source_url": "https://item.rakuten.co.jp/hc7/4905034069046/"
+    }
+  ],
   "published": [
     {
       "id": "epson-ew-056a",
