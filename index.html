@@ -12,7 +12,7 @@
 <body>
 <main class="wrap">
   <header class="header">
-    <div><div class="eyebrow">PROJECT EEMON / ROOM</div><h1>ええもん管理室 <span>🛍️</span></h1><p class="sub">AIが準備。iPhoneで承認。最後は楽天公式から投稿。</p></div>
+    <div><div class="eyebrow">PROJECT EEMON / ROOM</div><h1>ええもん管理室 <span>🛍️</span></h1><p class="sub">AIが商品候補を準備。Macで1件自動投稿・公開確認。iPhoneで状態をチェック。</p></div>
     <div class="live" id="connection">読み込み中</div>
   </header>
   <section class="counts" aria-label="件数">
@@ -25,9 +25,9 @@
     <p id="stock-health-summary">直近の自動補充を確認中…</p>
     <p id="stock-health-detail" class="muted small">この欄はMacの実行記録とGitHub在庫をもとに更新されるで。</p>
   </section>
-  <p class="notice">ここでの<strong>「承認」は下書きの確認とコピー</strong>やで。楽天ROOMへの投稿は、開いた公式画面で本人が「投稿／完了」を押してな。</p>
+  <p class="notice">ここでの<strong>「承認」は下書きの確認とコピー</strong>やで。Macの「EEMON_商品自動投稿.command」を起動すると承認待ちを1件ずつ投稿し、公開確認と台帳更新まで行う。投稿の定期無人起動は現在OFF。</p>
   <div class="section-heading"><h2>📥 AIが用意した投稿候補</h2><span id="feed-date" class="muted"></span></div>
-  <p class="sub">候補は1時間ごとに最大1件追加。確認できた商品だけ最大12件まで貯めて、好きなタイミングでまとめて承認できるで😊</p>
+  <p class="sub">確認済みの商品候補を毎時20分に最大1件補充。未投稿分は最大12件まで保管し、Macの自動投稿プログラムで1件ずつ処理できるで😊</p>
   <div id="pending"></div>
   <div class="section-heading"><h2>🛒 安い店舗を比較</h2></div>
   <div id="reviews"></div>
@@ -37,19 +37,19 @@
   <section class="panel" aria-label="ランカー発掘室へ進む">
     <p>AIが公開ROOMからS・A・Bランカーを見つけて、ランクと紹介ジャンルを確認。気になる人は本人が公式ROOMでフォローできるで。</p>
     <a class="button green" href="./rankers.html">🏅 ランカー候補を確認する</a>
-    <p class="muted small">ランカー候補は随時更新。無人自動フォローではなく公式画面でのフォローに限定。</p>
+    <p class="muted small">ランカー候補の公開プロフィール確認用。Macのフォロー操作履歴とは同期しません。</p>
   </section>
   <div class="section-heading"><h2>🤝 フォローバック処理室</h2></div>
   <section class="panel" aria-label="大量フォロワーの対応">
     <p>公開フォロワーとフォロー中の一覧を照合し、未処理の相手を順番に確認。本人が公式ROOMで「フォロー」を押したあと記録できるで。</p>
     <a class="button green" href="./followbacks.html">🤝 フォロバ処理室を開く</a>
-    <p class="muted small">自動化するのは照合・重複防止・順番管理。楽天のフォローボタンは無人操作しません。</p>
+    <p class="muted small">この画面は手動確認の処理室。Macのフォロバ自動操作実績とは同期しません。</p>
   </section>
   <div class="section-heading"><h2>🤝 フォローバック確認</h2></div>
   <section class="panel" aria-label="楽天ROOMのフォローバック確認">
     <p>フォローしてくれた人は、ROOM公式の <b>my ROOM → フォロワー</b> から一覧で確認できるで。</p>
     <a class="button green" href="https://room.rakuten.co.jp/eemon_sagashi_papa/items" target="_blank" rel="noopener noreferrer">自分のROOMを開いてフォロワーを見る</a>
-    <p class="muted small">公式画面でフォロワー数をタップし、まだフォローしていない相手の「フォロー」を選んでな。自動フォローは行っていません。</p>
+    <p class="muted small">公式画面でフォロワー数をタップして確認できるで。Macの旧フォロバ自動処理は現在、楽天側の操作上限で停止しており、この画面とは未同期。</p>
   </section>
   <details class="panel"><summary>＋ 商品候補を手動で追加</summary>
     <form id="manual-form" class="form" autocomplete="off">
