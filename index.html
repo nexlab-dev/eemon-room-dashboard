@@ -20,6 +20,11 @@
     <div><small>公開確認待ち</small><strong id="reported-count">–</strong></div>
     <div><small>公開済み</small><strong id="published-count">–</strong></div>
   </section>
+  <section class="panel" aria-label="毎時ストック補充の稼働状況">
+    <div class="section-heading"><h2>🕒 毎時の商品ストック補充</h2></div>
+    <p id="stock-health-summary">直近の自動補充を確認中…</p>
+    <p id="stock-health-detail" class="muted small">この欄はMacの実行記録とGitHub在庫をもとに更新されるで。</p>
+  </section>
   <p class="notice">ここでの<strong>「承認」は下書きの確認とコピー</strong>やで。楽天ROOMへの投稿は、開いた公式画面で本人が「投稿／完了」を押してな。</p>
   <div class="section-heading"><h2>📥 AIが用意した投稿候補</h2><span id="feed-date" class="muted"></span></div>
   <p class="sub">候補は1時間ごとに最大1件追加。確認できた商品だけ最大12件まで貯めて、好きなタイミングでまとめて承認できるで😊</p>
@@ -64,4 +69,5 @@
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 <script src="./app.js" defer></script>
+<script src="./stock-status.js" defer></script>
 </body></html>
