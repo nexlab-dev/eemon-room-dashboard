@@ -24,6 +24,9 @@ async function load(){
     '件｜次の事前調査済みストック '+x.staged_remaining+'件。'+
     (x.staged_remaining<=3?'次の商品の調査・補充が必要やで。':
       (released?'今回の商品は公開管理室へ同期済み。':'次の補充は毎時20分を予定。'));
+  if(typeof x.last_post_verified_at==='string'&&Number.isFinite(Date.parse(x.last_post_verified_at))){
+    detail.textContent+=' 🤖 最終自動投稿 '+toJst(x.last_post_verified_at)+'。';
+  }
  }catch{
   label.textContent='稼働状況を取得できへんかった';
   detail.textContent='商品一覧は下に表示されるで。更新時刻はMacの実行ログで確認が必要。';
