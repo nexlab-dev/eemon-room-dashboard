@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-08T09:22:30+09:00",
-  "last_release_at": "2026-11-08T09:20:01+09:00",
-  "last_item_id": "marna-shupatto-drop-s460",
+  "checked_at": "2026-11-08T10:20:13+09:00",
+  "last_release_at": "2026-11-08T10:20:00+09:00",
+  "last_item_id": "kai-select100-peeler-dh3000",
   "published_count": 11,
-  "pending_count": 0,
-  "staged_remaining": 9,
-  "last_run_status": "HEALTH_CHECK_OK",
+  "pending_count": 1,
+  "staged_remaining": 8,
+  "last_run_status": "HOURLY_SYNCED",
   "interval_label": "毎時20分",
   "last_post_verified_at": "2026-11-08T09:36:39+09:00",
   "last_post_id": "marna-shupatto-drop-s460"
