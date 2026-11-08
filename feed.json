@@ -2,7 +2,19 @@
   "schema_version": 2,
   "updated_at": "2026-11-08",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [],
+  "pending": [
+    {
+      "id": "kai-select100-peeler-dh3000",
+      "name": "貝印 SELECT100 T型ピーラー DH3000（食洗機対応）",
+      "url": "https://item.rakuten.co.jp/kai/000dh3000/",
+      "caption": "野菜の皮むき、いつものピーラーで十分と思ってへん？🥕\n\n貝印SELECT100のT型ピーラーは、刃の切り始めと持ちやすさにこだわった定番道具！\n\n✅ 斜め刃で皮むきのスタートがスムーズ\n✅ 滑りにくいウェーブ型ハンドル\n✅ じゃがいもの芽取り付き\n✅ ステンレス製で食洗機対応\n\n毎日使う道具こそ、使い勝手を見直したいね😊\n\n#貝印 #SELECT100 #キッチン用品 #便利グッズ",
+      "observed_at": "2026-11-08",
+      "shop": "貝印公式オンラインストア 楽天市場店",
+      "price_note": "公式店の価格・送料・在庫は投稿前に確認。メーカー希望小売価格とは異なる場合があります。",
+      "differentiator": "斜め刃、握りやすいウェーブ型ハンドル、U字芽取り付き。食洗機対応のステンレス製。",
+      "source_url": "https://item.rakuten.co.jp/kai/000dh3000/"
+    }
+  ],
   "published": [
     {
       "id": "epson-ew-056a",
