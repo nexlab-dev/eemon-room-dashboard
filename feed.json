@@ -112,17 +112,6 @@
       "price_note": "公式楽天のE1590単品。価格・送料・販売状態は投稿時に再確認。",
       "differentiator": "3層構造・約7mm厚の結露防止シート。サイズ約90cm×1.8m。水貼り式で結露対策と窓の断熱に使う。窓ガラスの種類によっては貼付不可。",
       "source_url": "https://item.rakuten.co.jp/nitoms/e1590/"
-    },
-    {
-      "id": "panasonic-shk484551-smoke-alarm",
-      "name": "パナソニック けむり当番 SHK484551（煙式・電池式・単独型）",
-      "url": "https://item.rakuten.co.jp/maido-diy/shk484551-sale/",
-      "caption": "家の火災警報器、いつ設置したか覚えてる？🏠\n\n電池切れや交換時期が気になるなら、型番確認から始めたいね。\n\nパナソニック「けむり当番」SHK484551は、旧SHK48455シリーズの後継モデルとしてメーカーが案内している煙式警報器。\n\n✅ 煙を感知する電池式・単独型\n✅ 警報音・音声で知らせるタイプ\n✅ 専用リチウム電池が付属\n✅ 薄型で設置する場所になじみやすい\n\n※煙式・熱式・連動型は用途が違うで。既存型番と設置場所、取付ベースの適合、交換条件をメーカー資料で確認してな。\n\n#パナソニック #けむり当番 #火災警報器 #防災\n#ええもん探しパパ #ええもん安心の備え",
-      "observed_at": "2026-11-09",
-      "shop": "まいどDIY 楽天市場店",
-      "price_note": "SHK484551煙式単品・電池同梱。価格・送料（地域差）と在庫、製造時期は購入前に要確認。",
-      "differentiator": "2026年1月からSHK48455の後継品（同等性能）としてパナソニックが案内するSHK484551。煙を感知する電池式単独型。付属リチウム電池で配線工事不要、既設機種との互換・設置条件は個別確認。",
-      "source_url": "https://item.rakuten.co.jp/maido-diy/shk484551-sale/"
     }
   ],
   "published": [
@@ -279,6 +268,13 @@
       "date": "2026-11-09",
       "url": "https://item.rakuten.co.jp/autobacs-ec/4972796190264/",
       "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400375237390"
+    },
+    {
+      "id": "panasonic-shk484551-smoke-alarm",
+      "name": "パナソニック けむり当番 SHK484551（煙式・電池式・単独型）",
+      "date": "2026-11-09",
+      "url": "https://item.rakuten.co.jp/maido-diy/shk484551-sale/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400382120360"
     }
   ],
   "price_reviews": [
