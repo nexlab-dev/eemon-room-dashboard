@@ -2,18 +2,7 @@
   "schema_version": 2,
   "updated_at": "2026-11-11",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [
-    {
-      "id": "yamazaki-magnet-wiper-5451-white",
-      "name": "山崎実業 tower マグネット水切りワイパー 5451 ホワイト",
-      "url": "https://item.rakuten.co.jp/hands-net/4903208054515/",
-      "caption": "お風呂の鏡や壁、水滴をそのままにしてへん？🛁\n\n山崎実業 tower「マグネット水切りワイパー 5451」は、約31cmのワイド幅で鏡や壁の水滴をサッと切れるアイテム。\n\n✅ マグネットが付く浴室壁に浮かせて収納\n✅ 柄が長く、浴槽や高いところにも届きやすい\n✅ シリコーン製で水滴をまとめやすい\n\n水垢・カビ対策は、お風呂上がりのひと手間から。取り付け場所が磁石に対応しているか確認してな😊\n\n#山崎実業 #tower #お風呂掃除 #水垢対策 #浮かせる収納 #ええもん探しパパ",
-      "observed_at": "2026-11-11",
-      "shop": "ハンズ（HANDS）楽天市場店",
-      "differentiator": "ホワイト品番5451、約幅31×奥行4.3×高さ34.5cm。マグネットが付く浴室壁へ収納できるシリコーン製水切りワイパー。浴室の水滴を簡単に除去し、水垢やカビの予防をサポート。",
-      "source_url": "https://item.rakuten.co.jp/hands-net/4903208054515/"
-    }
-  ],
+  "pending": [],
   "published": [
     {
       "id": "epson-ew-056a",
@@ -210,6 +199,13 @@
       "date": "2026-11-10",
       "url": "https://item.rakuten.co.jp/elecom/4549550149129/",
       "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400545275404"
+    },
+    {
+      "id": "yamazaki-magnet-wiper-5451-white",
+      "name": "山崎実業 tower マグネット水切りワイパー 5451 ホワイト",
+      "date": "2026-11-11",
+      "url": "https://item.rakuten.co.jp/hands-net/4903208054515/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400610623374"
     }
   ],
   "price_reviews": [
