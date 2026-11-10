@@ -2,18 +2,7 @@
   "schema_version": 2,
   "updated_at": "2026-11-10",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [
-    {
-      "id": "elecom-tkm01-2430wh-4outlet",
-      "name": "エレコム 電源タップ マグネット付き T-KM01-2430WH 4個口3m ホワイト",
-      "url": "https://item.rakuten.co.jp/elecom/4549550149129/",
-      "caption": "配線まわりのごちゃつき、コンセントの置き場所が決まらない時に🔌\n\nエレコムのマグネット付き電源タップ T-KM01-2430WH は、スチールラックなどの金属面に固定しやすい4個口・3mタイプ。\n\n✅ ほこり防止シャッター\n✅ 雷サージ対策\n✅ 180°スイングプラグで配線しやすい\n✅ 強力マグネットで位置をまとめやすい\n\n※最大1500W。側面に3ピンプラグも挿せますがアース機能はありません。取付面の材質と使用電力は購入前に確認してな。\n\n#エレコム #電源タップ #配線整理 #デスク周り #ええもん探しパパ #ええもん家電",
-      "observed_at": "2026-11-10",
-      "shop": "エレコムダイレクトショップ",
-      "differentiator": "エレコム製の4個口・3m・マグネット固定式タップ。雷ガード、ほこり防止シャッター、スイングプラグ、2ピンプラグ。側面の3ピン差込口はアース機能なし。最大1500W。",
-      "source_url": "https://item.rakuten.co.jp/elecom/4549550149129/"
-    }
-  ],
+  "pending": [],
   "published": [
     {
       "id": "epson-ew-056a",
@@ -203,6 +192,13 @@
       "date": "2026-11-09",
       "url": "https://item.rakuten.co.jp/shopmarna/k748/",
       "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400421714146"
+    },
+    {
+      "id": "elecom-tkm01-2430wh-4outlet",
+      "name": "エレコム 電源タップ マグネット付き T-KM01-2430WH 4個口3m ホワイト",
+      "date": "2026-11-10",
+      "url": "https://item.rakuten.co.jp/elecom/4549550149129/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400545275404"
     }
   ],
   "price_reviews": [
