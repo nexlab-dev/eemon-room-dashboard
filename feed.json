@@ -2,7 +2,18 @@
   "schema_version": 2,
   "updated_at": "2026-11-11",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [],
+  "pending": [
+    {
+      "id": "iwatani-toughmaru-cb-odx-1-bk",
+      "name": "イワタニ カセットフー タフまる CB-ODX-1-BK ブラック",
+      "url": "https://item.rakuten.co.jp/yamada-denki/512553018/",
+      "caption": "防災用の備えや、外でご飯を作る日にも頼れるカセットコンロ🔥\n\nイワタニの「カセットフー タフまる CB-ODX-1-BK」は、ダブル風防ユニットで風の影響を抑えるブラックモデル。\n\n✅ 風を防ぐ2段構造\n✅ 専用キャリングケース付き\n✅ 耐荷重20kg、ダッチオーブンにも対応（鍋底サイズは要確認）\n\nキャンプにも、もしもの備えにも。専用のイワタニカセットガスを使ってな。\n\n⚠️ テント内・車内では絶対に使用せず、取扱説明書に従い安全な場所で。\n\n#イワタニ #タフまる #カセットコンロ #防災グッズ #キャンプ用品 #ええもん探しパパ",
+      "observed_at": "2026-11-11",
+      "shop": "ヤマダ電機 楽天市場店",
+      "differentiator": "イワタニのカセットこんろ・ブラック単一型番。ダブル風防ユニット、多孔式バーナー、専用キャリングケース、耐荷重20kg。テント・車内使用禁止。",
+      "source_url": "https://item.rakuten.co.jp/yamada-denki/512553018/"
+    }
+  ],
   "published": [
     {
       "id": "epson-ew-056a",
