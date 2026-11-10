@@ -3,11 +3,11 @@
   "checked_at": "2026-11-10T18:35:44+09:00",
   "last_release_at": "2026-11-10T18:35:15+09:00",
   "last_item_id": "elecom-tkm01-2430wh-4outlet",
-  "published_count": 27,
-  "pending_count": 1,
+  "published_count": 28,
+  "pending_count": 0,
   "staged_remaining": 1,
   "last_run_status": "HOURLY_SYNCED",
   "interval_label": "毎時ランダム分（当日の予定はEEMONランダムプランに記録）",
-  "last_post_verified_at": "2026-11-09T21:52:41+09:00",
-  "last_post_id": "marna-kiwami-rice-k748w"
+  "last_post_verified_at": "2026-11-10T18:50:54+09:00",
+  "last_post_id": "elecom-tkm01-2430wh-4outlet"
 }
