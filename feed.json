@@ -2,18 +2,7 @@
   "schema_version": 2,
   "updated_at": "2026-11-13",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
-  "pending": [
-    {
-      "id": "iris-shoe-dryer-sd-c2-w",
-      "name": "アイリスオーヤマ 脱臭くつ乾燥機 カラリエ SD-C2-W",
-      "url": "https://item.rakuten.co.jp/hcvalor2/vh-4967576419031/",
-      "caption": "雨で濡れた靴、翌朝までに乾かしたい時あるよな👟\n\nアイリスオーヤマの脱臭くつ乾燥機 SD-C2-W は、玄関でそのまま使える伸縮ダブルノズル式。\n\n✅ 2足同時に乾燥できる\n✅ 標準・革靴・低騒音の3モード\n✅ オゾン脱臭機能も搭載\n\n革靴は乾かしすぎに注意。2足同時は乾燥時間を長めにするのがメーカー案内やで。\n\n#アイリスオーヤマ #靴乾燥機 #雨の日対策 #便利家電 #ええもん探しパパ",
-      "observed_at": "2026-11-11",
-      "shop": "ホームセンターバロー2号店",
-      "differentiator": "伸縮ダブルノズルで2足同時に靴を乾燥。標準・革靴・低騒音の3モードとオゾン脱臭を搭載。",
-      "source_url": "https://item.rakuten.co.jp/hcvalor2/vh-4967576419031/"
-    }
-  ],
+  "pending": [],
   "published": [
     {
       "id": "epson-ew-056a",
@@ -280,6 +269,13 @@
       "date": "2026-11-13",
       "url": "https://item.rakuten.co.jp/shopmarna/k804/",
       "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400976714143"
+    },
+    {
+      "id": "iris-shoe-dryer-sd-c2-w",
+      "name": "アイリスオーヤマ 脱臭くつ乾燥機 カラリエ SD-C2-W",
+      "date": "2026-11-13",
+      "url": "https://item.rakuten.co.jp/hcvalor2/vh-4967576419031/",
+      "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400984802390"
     }
   ],
   "price_reviews": [
