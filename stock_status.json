@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-13T16:14:48+09:00",
+  "checked_at": "2026-11-13T17:16:06+09:00",
   "last_release_at": "2026-11-13T16:14:01+09:00",
   "last_item_id": "marna-turner-k804",
   "published_count": 36,
   "pending_count": 3,
   "staged_remaining": 0,
-  "last_run_status": "HOURLY_SYNCED",
+  "last_run_status": "NO_ELIGIBLE_CANDIDATE",
   "interval_label": "毎時ランダム分（当日の予定はEEMONランダムプランに記録）",
   "last_post_verified_at": "2026-11-13T16:45:04+09:00",
   "last_post_id": "marna-mizupika-bottle-k842"
