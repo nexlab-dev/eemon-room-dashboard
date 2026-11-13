@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-13T14:17:06+09:00",
-  "last_release_at": "2026-11-12T01:20:01+09:00",
-  "last_item_id": "iris-mini-turbo-jsk-w10-w",
+  "checked_at": "2026-11-13T15:21:41+09:00",
+  "last_release_at": "2026-11-13T15:21:01+09:00",
+  "last_item_id": "marna-mizupika-bottle-k842",
   "published_count": 34,
-  "pending_count": 3,
-  "staged_remaining": 2,
-  "last_run_status": "NO_ELIGIBLE_CANDIDATE",
+  "pending_count": 4,
+  "staged_remaining": 1,
+  "last_run_status": "HOURLY_SYNCED",
   "interval_label": "毎時ランダム分（当日の予定はEEMONランダムプランに記録）",
   "last_post_verified_at": "2026-11-13T14:53:07+09:00",
   "last_post_id": "iris-mini-turbo-jsk-w10-w"
