@@ -49,7 +49,7 @@ def compare(payload, now=None, freshness_hours=DEFAULT_FRESHNESS_HOURS):
     if payload.get('demo_data') is True:raise ValidationError('デモ価格の本番取込は禁止')
     records=payload.get('observations')
     if not isinstance(records,list):raise ValidationError('observations must be list')
-    accepted=[]; excluded=[]; already=set()
+    accepted=[]; excluded=[]; already=set(); seen_urls=set()
     for idx,raw in enumerate(records):
         try:
             if not isinstance(raw,dict):raise ValidationError('レコード形式が違う')
@@ -76,8 +76,12 @@ def compare(payload, now=None, freshness_hours=DEFAULT_FRESHNESS_HOURS):
             if raw.get('variant_key')!=product_key:
                 raise ValidationError('同一SKU・色・仕様の検査不一致')
             key=(product_key,listing_key)
-            if key in already:raise ValidationError('商品・販売ページの重複')
+            # One canonical item URL must not appear under multiple listing keys/SKUs.
+            # Query strings are retained: removing them can collapse real product variants.
+            if key in already or item_url in seen_urls:
+                raise ValidationError('商品・販売ページURLの重複')
             already.add(key)
+            seen_urls.add(item_url)
             accepted.append({'product_key':product_key,'product_name':raw['product_name'].strip(),
              'listing_key':listing_key,'shop_name':raw['shop_name'].strip(),
              'item_url':item_url,'evidence_url':evidence_url,
