@@ -78,6 +78,6 @@ python3 scripts/price_engine.py data/muse_observations.template.json site/price_
 ## 開発正本
 
 - NEXLAB private `Project-ORCHESTRA` Issue **#66**：ASP軸足転換。`automation/eemon/ASP_PIVOT_SKILL.md` を尊重。
-- 既存 `nexlab-dev/eemon-room-dashboard` のメイン配信・ROOM管理は保護。新たな `social-pilot/` ディレクトリとして **Draft PR** でレビューし、独立導線として切り分ける。
+- 既存 `nexlab-dev/eemon-room-dashboard` のメイン配信・ROOM管理は保護。新たな `social-pilot/` ディレクトリとして **Draft PR** でレビューし、独立導線として切り分ける。GitHubには再現可能なソースコードを置く。MP4の実ファイルは容量管理のため配布ZIP側へ同梱し、GitHubのブランチだけを取得したときは `python scripts/render_reels.py` で再生成してからサイトを起動する。
 - `reels.json` と `build_content.py` が10本の原稿正本。レンダラは「原稿が変わったら再実行」する再現可能な実装。
 - README + バグ/QAを残し、通常チャットとWorkの両方から改修可能にする。コードは本番公開や実投稿を勝手に行わない。
