@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-15",
   "room_url": "https://room.rakuten.co.jp/eemon_sagashi_papa/items",
   "pending": [],
   "published": [
@@ -278,36 +278,5 @@
       "room_post": "https://room.rakuten.co.jp/eemon_sagashi_papa/1700400984802390"
     }
   ],
-  "price_reviews": [
-    {
-      "id": "ew056a-20261107",
-      "name": "EPSON EW-056A｜販売店の見直し",
-      "observed_at": "2026-11-07",
-      "offers": [
-        {
-          "shop": "イートレンド楽天市場店",
-          "price_yen": 8467,
-          "shipping_yen": 0,
-          "condition": "新品として掲載。初期インクの同梱・店側の保証条件は要確認",
-          "link": "https://item.rakuten.co.jp/etre/1267271/"
-        },
-        {
-          "shop": "OCNオンラインショップ 楽天市場店",
-          "price_yen": 8479,
-          "shipping_yen": 0,
-          "condition": "新品・付属品と納期を購入前に要確認",
-          "link": "https://search.rakuten.co.jp/search/mall/EW-056A/"
-        },
-        {
-          "shop": "エプソン公式店（投稿時）",
-          "price_yen": 9900,
-          "shipping_yen": 0,
-          "condition": "投稿時点の価格。最新価格は要確認",
-          "link": "https://item.rakuten.co.jp/epson/ew-056a/"
-        }
-      ],
-      "source_url": "https://search.rakuten.co.jp/search/mall/EW-056A/",
-      "note": "同じ型番・新品・同梱品・保証が同じなら送料込みの安い店を優先。写真枚数だけでは判断しない。既存のROOM投稿は自動で差し替えない。"
-    }
-  ]
+  "price_reviews": []
 }
