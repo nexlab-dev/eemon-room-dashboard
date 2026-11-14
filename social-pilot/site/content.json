@@ -1,0 +1,325 @@
+{
+  "brand": "ええもん探しパパ",
+  "reels": [
+    {
+      "id": "reel01",
+      "number": 1,
+      "topic": "送料込みで比べる",
+      "category": "価格",
+      "icon": "shopping",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 01",
+          "headline": "「安い！」\nそれ、送料込み？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "値札だけやと\n逆転することも",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "本体価格・送料・税込\n同じ条件でチェック",
+          "subline": "送料が未確認の店舗は比較保留。最安値と断定しない。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "比較は総額で。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "価格比較は「支払総額」で。送料や付属品が違う店舗を、金額だけで順位付けしないのがコツ。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "送料が未確認の店舗は比較保留。最安値と断定しない。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel02",
+      "number": 2,
+      "topic": "プリンターはインク代まで",
+      "category": "家電",
+      "icon": "printer",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 02",
+          "headline": "プリンター\n本体価格だけで選ぶ？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "印刷する頻度で\n選び方は変わる",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "インク方式・用紙・\nスマホ接続を確認",
+          "subline": "利用頻度・対応用紙を確認。実際の維持費はモデルで異なる。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "後から困らん選び方。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "プリンター選びは本体価格だけじゃない。インク代、対応用紙、スマホ接続をセットで確認。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "利用頻度・対応用紙を確認。実際の維持費はモデルで異なる。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel03",
+      "number": 3,
+      "topic": "布団乾燥機の見落とし",
+      "category": "家電",
+      "icon": "bed",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 03",
+          "headline": "布団乾燥機\n数字だけ見てない？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "使う布団と\nノズルの相性が大事",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "収納場所・重さ・\n運転音も確認",
+          "subline": "適合する寝具・取り扱いはメーカー説明を確認。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "寝る前の手間まで。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "布団乾燥機は乾燥時間だけで決めず、ノズル形状・布団との相性・収納場所まで。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "適合する寝具・取り扱いはメーカー説明を確認。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel04",
+      "number": 4,
+      "topic": "電源タップは安全優先",
+      "category": "安全",
+      "icon": "plug",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 04",
+          "headline": "電源タップ\n見た目だけで選ばんといて",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "同時につなぐ\n機器を思い出して",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "定格容量・差込口・\n設置場所を確認",
+          "subline": "定格の超過、ホコリ、たこ足配線に注意。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "安全が最優先。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "電源タップは「口数」だけじゃなく定格容量や発熱リスクも重要。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "定格の超過、ホコリ、たこ足配線に注意。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel05",
+      "number": 5,
+      "topic": "掃除機は重さの数字だけ？",
+      "category": "家事",
+      "icon": "vacuum",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 05",
+          "headline": "軽い掃除機\nそれだけで正解？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "持ち方と掃除する\n場所で変わる",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "ヘッド・ゴミ捨て・\n手入れ方法も確認",
+          "subline": "使用環境で合う機種は変わる。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "続けられる家事に。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "掃除機は重量の数字だけでなく持ちやすさやゴミ捨て、手入れの負担も確認。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "使用環境で合う機種は変わる。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel06",
+      "number": 6,
+      "topic": "収納グッズは1cmが大事",
+      "category": "収納",
+      "icon": "storage",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 06",
+          "headline": "収納グッズ\n先に買ってない？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "まず測るのは\n外寸と内寸",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "扉の開閉・動線・\n床の段差も確認",
+          "subline": "施工や耐荷重の条件は個別確認。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "測ってから買おう。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "収納グッズは見た目より寸法。外寸・内寸、扉の開閉まで想像してから選ぶ。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "施工や耐荷重の条件は個別確認。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel07",
+      "number": 7,
+      "topic": "ドラレコは夜の条件も",
+      "category": "カー用品",
+      "icon": "car",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 07",
+          "headline": "ドラレコ\n画素数だけ見てない？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "必要な場面を\n先に決めよう",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "夜間・前後撮影・\n駐車監視の条件",
+          "subline": "対応車種と取り付けは機種・車種による。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "使い方から選ぼう。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "ドライブレコーダーは解像度だけでは選べない。撮影範囲や夜間性能、駐車監視の電源条件を確認。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "対応車種と取り付けは機種・車種による。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel08",
+      "number": 8,
+      "topic": "加湿器は洗いやすさ",
+      "category": "家電",
+      "icon": "humidifier",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 08",
+          "headline": "加湿器\n給水だけで選ぶ？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "毎日のお手入れが\n意外と大事",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "洗える構造・方式・\n部屋の広さを確認",
+          "subline": "説明書どおりの清掃と水交換が必要。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "清潔に使える一台。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "加湿器の比較は適用床面積・方式・洗浄方法のセットで。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "説明書どおりの清掃と水交換が必要。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel09",
+      "number": 9,
+      "topic": "セール価格は条件確認",
+      "category": "価格",
+      "icon": "sale",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 09",
+          "headline": "本日だけ安い？\nその条件ほんま？",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "クーポン・ポイントは\n誰でも同じじゃない",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "有効期限・対象者・\n送料条件を確認",
+          "subline": "値下げ実績や最安値は検証なしに断定しない。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "焦らず賢く買おう。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "セールは表示価格と実際に払う金額が違うことも。条件と期限を先に確認。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "値下げ実績や最安値は検証なしに断定しない。",
+      "status": "DRAFT_NOT_POSTED"
+    },
+    {
+      "id": "reel10",
+      "number": 10,
+      "topic": "買う前の最終チェック",
+      "category": "買い物術",
+      "icon": "check",
+      "slides": [
+        {
+          "kicker": "BUY SMART / 10",
+          "headline": "買う前に\n最後の3チェック",
+          "subline": "買う前に、ここだけチェック。"
+        },
+        {
+          "kicker": "WHY IT MATTERS",
+          "headline": "同じ型番？\n送料込み？",
+          "subline": "後悔しないための比較ポイント"
+        },
+        {
+          "kicker": "CHECK POINT",
+          "headline": "保証・返品条件も\nスクショで保存",
+          "subline": "販売条件は各店舗の最新表示を優先。"
+        },
+        {
+          "kicker": "EEMON EDITORIAL",
+          "headline": "迷ったら保存してな。",
+          "subline": "ええもん探しパパ｜保存して見返してな"
+        }
+      ],
+      "caption": "最後に型番、支払総額、保証・返品条件の3つを確認。比較の失敗を減らそう。\n\n買う前の確認に使ってな。商品や販売価格は公式ページで最終確認を。\n\n#ええもん探しパパ #買い物のコツ #暮らしの便利 #商品比較",
+      "note": "販売条件は各店舗の最新表示を優先。",
+      "status": "DRAFT_NOT_POSTED"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "date": "2026-11-14",
+  "status": "DRAFT_NOT_POSTED",
+  "videos": [
+    {
+      "file": "reel01.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 653463,
+      "sha256": "3ccb55e0aca7d3af1750cd91b8edd530f3f02fdc547c85376c1509caa13de37f"
+    },
+    {
+      "file": "reel02.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 723438,
+      "sha256": "eb8bd02546c39690a3b514c23f749c8b605a76d401014d0cb890e30c1352aff4"
+    },
+    {
+      "file": "reel03.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 686830,
+      "sha256": "6d5afaa1a18290ab609297e91daa43e527e7e88db4ecc7d1def2852c119893e2"
+    },
+    {
+      "file": "reel04.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 675134,
+      "sha256": "d96b082b5f4f5152c86b060150d32654391511a2b5fe03931009d589ea720d43"
+    },
+    {
+      "file": "reel05.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 616672,
+      "sha256": "ec5f6072c799400a9c7abd7fe3303dd75d1fedeb41c3c6936469f892c9a75d53"
+    },
+    {
+      "file": "reel06.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 732499,
+      "sha256": "15d0716a163d470a949fc26da0f7498142ac0542f27f97d4a6d200cc337f50f1"
+    },
+    {
+      "file": "reel07.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 644954,
+      "sha256": "aa0e5c5178b3626de42af17044d24765309c95afb8be6985d62eddf9223a8e62"
+    },
+    {
+      "file": "reel08.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 636162,
+      "sha256": "9dbe0e05e2ff69ca5a605ac1f38ae286cf60dba70dc763b8d42c3f566e8d1869"
+    },
+    {
+      "file": "reel09.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 747017,
+      "sha256": "69d1b1aebd8a4628b6d7a35475d1aab6bf622bccb0784ae9382b0c39c724ee24"
+    },
+    {
+      "file": "reel10.mp4",
+      "duration_sec": 12,
+      "resolution": "1080x1920",
+      "size_bytes": 597167,
+      "sha256": "2d16f35a4de95c7c23262785b7d159cabe785616a72f71a9c52d7db7a78b9e9c"
+    }
+  ],
+  "site_status": "LOCAL_QA",
+  "price_watch": "EMPTY_NEEDS_SOURCED_INPUT",
+  "asp_links": "NOT_CONFIGURED",
+  "published": false,
+  "automated_test_result": "12 passed"
+}
