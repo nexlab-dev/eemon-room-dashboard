@@ -81,3 +81,19 @@ python3 scripts/price_engine.py data/muse_observations.template.json site/price_
 - 既存 `nexlab-dev/eemon-room-dashboard` のメイン配信・ROOM管理は保護。新たな `social-pilot/` ディレクトリとして **Draft PR** でレビューし、独立導線として切り分ける。GitHubには再現可能なソースコードを置く。MP4の実ファイルは容量管理のため配布ZIP側へ同梱し、GitHubのブランチだけを取得したときは `python scripts/render_reels.py` で再生成してからサイトを起動する。
 - `reels.json` と `build_content.py` が10本の原稿正本。レンダラは「原稿が変わったら再実行」する再現可能な実装。
 - README + バグ/QAを残し、通常チャットとWorkの両方から改修可能にする。コードは本番公開や実投稿を勝手に行わない。
+
+## Muse候補の安全な受入（2026-11-14 追加）
+
+価格の原典を未確認のMuse候補は、価格ランキングへ**直接入力しない**。以下の読み取り専用・非公開準備用コマンドで、すべて未検証の隔離キューへ移す。
+
+```bash
+# 入力は {"candidates":[{"product_key":"...","variant_key":"...","item_url":"https://...",
+# "evidence_url":"https://...","observed_at":"2026-11-14T19:00:00+09:00",
+# "source_permission":"unknown"}]} というJSON。実際の候補は許諾のある取得経路で用意する。
+python3 scripts/muse_intake.py data/muse_candidates.json data/muse_review_queue.json
+python3 -m pytest tests/test_muse_intake.py -q
+```
+
+`data/muse_review_queue.json` は **QUARANTINED_UNVERIFIED** で固定し、価格・送料・在庫の未検証値や任意の秘密フィールドを持ち込まない。スキーマ/URL/時刻形式の検査は原典確認の代替ではない。担当者が販売元の実画面で同一SKU、税込価格、送料、在庫、取得許諾、ASP提携・掲載許可を確認し、別途 `price-input.schema.json` に従う人手確認済みデータを作るまで `price_engine.py` に渡さない。24時間経過後は再確認する。**Museへの依頼・受諾・データ取得・公開は本変更では未実施**。
+
+復旧: この追加ファイルを除いても既存 `price_engine.py` / サイトは変更されず従来どおり動く。Draft PRのままレビューし、通常チャット・Workの両方からGitHub上のスクリプト/テストを編集できる。
