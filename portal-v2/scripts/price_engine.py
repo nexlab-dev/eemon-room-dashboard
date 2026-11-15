@@ -10,7 +10,7 @@ import datetime as dt
 import ipaddress
 import json
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlunsplit
 
 JST=dt.timezone(dt.timedelta(hours=9))
 DEFAULT_FRESHNESS_HOURS=24
@@ -31,6 +31,19 @@ def safe_url(value: str) -> str:
     except ValueError as exc:
         if str(exc)=='IP直指定は禁止':raise
     return value
+
+def canonical_item_url(value: str) -> str:
+    """Normalize URL identity only; keep path/query intact for real SKU variants."""
+    u = urlsplit(value)
+    host = u.hostname.lower()
+    try:
+        port = u.port
+    except ValueError:
+        raise ValidationError('URLポートが無効')
+    if port is not None and port != 443:
+        raise ValidationError('販売ページの非標準ポートは禁止')
+    # URL hostnames and default HTTPS ports are case-insensitive/equivalent.
+    return urlunsplit(('https', host, u.path or '/', u.query, ''))
 
 def int_yen(value, field, *, minimum=0):
     if type(value) is not int or not minimum<=value<=MAX_PRICE_YEN:raise ValidationError(f'{field}: 整数円のみ')
@@ -78,10 +91,11 @@ def compare(payload, now=None, freshness_hours=DEFAULT_FRESHNESS_HOURS):
             key=(product_key,listing_key)
             # One canonical item URL must not appear under multiple listing keys/SKUs.
             # Query strings are retained: removing them can collapse real product variants.
-            if key in already or item_url in seen_urls:
+            canonical_url=canonical_item_url(item_url)
+            if key in already or canonical_url in seen_urls:
                 raise ValidationError('商品・販売ページURLの重複')
             already.add(key)
-            seen_urls.add(item_url)
+            seen_urls.add(canonical_url)
             accepted.append({'product_key':product_key,'product_name':raw['product_name'].strip(),
              'listing_key':listing_key,'shop_name':raw['shop_name'].strip(),
              'item_url':item_url,'evidence_url':evidence_url,
