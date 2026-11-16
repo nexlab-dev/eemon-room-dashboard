@@ -52,6 +52,14 @@ class AffiliateReleaseGateTests(unittest.TestCase):
         data["affiliate_url"] = "https://example.org:443/approved-link"
         self.assertEqual(gate.check(data), [])
 
+    def test_whitespace_and_control_character_urls_block(self):
+        for url in ("https://example.org/has space", "https://example.org/has\\nnewline",
+                    "https://example.org/has\\ttab", "https://example.org/has\\x7fdel"):
+            with self.subTest(url=repr(url)):
+                data = self.valid()
+                data["affiliate_url"] = url
+                self.assertTrue(gate.check(data))
+
     def test_missing_evidence_blocks(self):
         data = self.valid()
         data["evidence_refs"] = []
