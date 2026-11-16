@@ -32,6 +32,26 @@ class AffiliateReleaseGateTests(unittest.TestCase):
                 data["affiliate_url"] = url
                 self.assertTrue(gate.check(data))
 
+    def test_private_or_nonstandard_affiliate_hosts_block(self):
+        for url in (
+            "https://127.0.0.2/link",
+            "https://192.168.1.1/link",
+            "https://[::1]/link",
+            "https://intranet.local/link",
+            "https://shop.localhost/link",
+            "https://example.org:8443/link",
+            "https://example.org:bad/link",
+        ):
+            with self.subTest(url=url):
+                data = self.valid()
+                data["affiliate_url"] = url
+                self.assertTrue(gate.check(data))
+
+    def test_standard_https_port_allowed_for_review_only(self):
+        data = self.valid()
+        data["affiliate_url"] = "https://example.org:443/approved-link"
+        self.assertEqual(gate.check(data), [])
+
     def test_missing_evidence_blocks(self):
         data = self.valid()
         data["evidence_refs"] = []
