@@ -32,7 +32,8 @@ def check(manifest):
     else:
         try:
             parsed = urlsplit(url)
-            if (parsed.scheme != "https" or not parsed.hostname or
+            if (any(ch.isspace() or ord(ch) < 32 or ord(ch) == 127 for ch in url) or
+                parsed.scheme != "https" or not parsed.hostname or
                 parsed.username or parsed.password or parsed.fragment or
                 parsed.hostname.lower() in ("localhost", "127.0.0.1") or
                 parsed.hostname.lower().endswith((".localhost", ".local")) or
