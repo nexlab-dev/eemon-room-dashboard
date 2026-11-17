@@ -20,7 +20,15 @@ class ValidationError(ValueError): pass
 
 def safe_url(value: str) -> str:
     if not isinstance(value, str) or len(value)>2048:raise ValidationError('URLが無効')
-    u=urlsplit(value)
+    if any(ch.isspace() or ord(ch) < 32 or ord(ch) == 127 for ch in value):
+        raise ValidationError('URLに空白・制御文字を含められません')
+    try:
+        u=urlsplit(value)
+        port=u.port
+    except ValueError:
+        raise ValidationError('URLの構文・ポートが無効')
+    if port is not None and port != 443:
+        raise ValidationError('URLの非標準ポートは禁止')
     if u.scheme != 'https' or not u.hostname or u.username or u.password or u.fragment:
         raise ValidationError('httpsの公開URLのみ許可')
     host=u.hostname.lower()
