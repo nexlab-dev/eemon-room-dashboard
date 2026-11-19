@@ -61,7 +61,7 @@ class AffiliateReleaseGateTests(unittest.TestCase):
                 self.assertTrue(gate.check(data))
 
     def test_malformed_evidence_blocks(self):
-        for refs in ([""], ["   "], [None], [123], ["ok", ""], ["a\\nline"], ["x" * 513]):
+        for refs in ([""], ["   "], [None], [123], ["ok", ""], ["a\nline"], ["x" * 513]):
             with self.subTest(refs=refs):
                 data = self.valid()
                 data["evidence_refs"] = refs
