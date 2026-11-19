@@ -43,7 +43,10 @@ def check(manifest):
                 errors.append("affiliate_url must be public HTTPS without credentials")
         except ValueError:
             errors.append("affiliate_url invalid")
-    if not isinstance(manifest.get("evidence_refs"), list) or not manifest["evidence_refs"]:
+    if (not isinstance(manifest.get("evidence_refs"), list) or not manifest["evidence_refs"] or
+        any(not isinstance(ref, str) or not ref.strip() or len(ref) > 512 or
+            any(ord(ch) < 32 or ord(ch) == 127 for ch in ref)
+            for ref in manifest["evidence_refs"])):
         errors.append("approval evidence_refs missing")
     return errors
 
