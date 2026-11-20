@@ -2,6 +2,7 @@
 from pathlib import Path
 import base64
 import json
+import re
 
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
@@ -19,6 +20,8 @@ def script_data(obj):
 PRELOAD='<script>window.__EEMON_DATA='+script_data(PAYLOAD)+';window.__EEMON_ASSETS='+script_data(ASSETS)+';window.__EEMON_VIDEOS='+script_data(VIDEOS)+''';
 window.fetch=async function(path){if(path==='/api/health')return {ok:true,json:async()=>({remote_ai_available:false})};
 if(!(path in window.__EEMON_DATA))return {ok:false};return {ok:true,json:async()=>window.__EEMON_DATA[path]}};</script>'''
+# The standalone HTML has no sibling pages for the hosted article links.
+SRC=re.sub(r'    <!-- hosted-guides:start -->\n.*?    <!-- hosted-guides:end -->\n', '', SRC, flags=re.DOTALL)
 SRC=SRC.replace('<link rel="icon" href="assets/logo.svg" type="image/svg+xml">',
      '<link rel="icon" href="'+ASSETS['logo']+'" type="image/svg+xml">')
 SRC=SRC.replace('<link rel="stylesheet" href="style.css">','<style>'+CSS+'</style>')
