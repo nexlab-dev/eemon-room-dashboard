@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EEMON Muse candidate price observations (not automated scraping)",
+  "type": "object", "required": ["observations"],
+  "properties": {
+    "demo_data": {"const": false},
+    "observations": {"type":"array", "items":{
+      "type":"object", "additionalProperties": false,
+      "required":["product_key","variant_key","product_name","listing_key","shop_name","item_url","evidence_url","price_jpy","shipping_jpy","currency","tax_included","stock","checked_at","verification","verified_by"],
+      "properties": {
+        "product_key":{"type":"string", "minLength":3}, "variant_key":{"type":"string"}, "product_name":{"type":"string"},
+        "listing_key":{"type":"string"}, "shop_name":{"type":"string"}, "item_url":{"type":"string","format":"uri"}, "evidence_url":{"type":"string","format":"uri"},
+        "price_jpy":{"type":"integer", "minimum":1}, "shipping_jpy":{"type":"integer", "minimum":0},
+        "currency":{"const":"JPY"}, "tax_included":{"const":true}, "stock":{"const":"available"},
+        "checked_at":{"type":"string","format":"date-time"}, "verification":{"const":"human_verified_official_page"}, "verified_by":{"type":"string","minLength":1}
+      }
+    }}
+  }
+}
