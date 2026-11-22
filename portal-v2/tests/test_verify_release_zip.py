@@ -59,7 +59,7 @@ class ReleaseZipIntegrityTests(unittest.TestCase):
             module.verify(self.archive(duplicate=7))
 
     def test_crc_tampering_holds(self):
-        with self.assertRaises(zipfile.BadZipFile):
+        with self.assertRaisesRegex(ValueError, "ZIP integrity failed"):
             module.verify(self.archive(corrupt=True))
 
     def test_missing_archive_holds(self):
